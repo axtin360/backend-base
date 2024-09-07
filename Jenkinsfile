@@ -74,7 +74,7 @@ pipeline {
             steps {
                 script {
                     
-                    if (env.BRANCH_NAME == 'main') {
+                    if (env.BRANCH_NAME == 'tarea-final') {
                         ambiente = 'prd'
                     } else {
                         ambiente = 'dev'
